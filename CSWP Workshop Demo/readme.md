@@ -9,7 +9,7 @@ IEDs perform protection, control, monitoring, and automation functions (e.g., ci
 In this scenario, the IED publishes and subscribes to **GOOSE messages** to exchange real-time control signals.
 
 ---
-### Demonstration
+### Demonstration and files
 
 https://drive.google.com/drive/folders/1GDA3jNvlEIh01XwkP9DavS5b0ba15fEw?usp=sharing
 
