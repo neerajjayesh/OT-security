@@ -17,8 +17,17 @@ A dark green-on-black SCADA HMI dashboard simulating a **Kerala State Electricit
 
 ```bash
 pip install -r requirements.txt
-python kseb_dashboard.py
+python main.py
 ```
+
+## Project Structure
+
+- `main.py` — Application entry point
+- `dashboard.py` — Core UI layout and main window (`KSEBDashboard`)
+- `components.py` — Reusable SCADA UI widgets (gauges, indicators, panels)
+- `simulation.py` — Live telemetry and fault injection simulation engine
+- `modbus_server.py` — Virtual Modbus TCP slave running in background
+- `theme.py` — Global style constants and UI theme helpers
 
 ## Keyboard Shortcuts
 
